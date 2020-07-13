@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Hyemi's Blog</title>
+		<description>Hello!</description>
+		<link>/</link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Hello!</title>
+				<description>&lt;p&gt;Hello!!!&lt;/p&gt;
+
+&lt;p&gt;How are you?
+My first Blog page&lt;/p&gt;
+</description>
+				<pubDate>Tue, 14 Jul 2020 00:00:00 +0900</pubDate>
+				<link>/general/setup/demo/2020/07/14/Hello.html</link>
+				<guid isPermaLink="true">/general/setup/demo/2020/07/14/Hello.html</guid>
+			</item>
+		
+	</channel>
+</rss>
