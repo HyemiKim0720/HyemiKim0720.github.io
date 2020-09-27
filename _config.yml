@@ -1,40 +1,25 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+title:              Clean Blog
+email:              your-email@example.com
+description:        A Blog Theme by Start Bootstrap
+author:             Start Bootstrap
+baseurl:            "/startbootstrap-clean-blog-jekyll"
+url:                "https://startbootstrap.github.io"
 
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
-highlighter: rouge
-markdown: kramdown
-disqus: dbyll
-google_analytics: dbyll
-title: Hyemi's Blog
+# Social Profiles
+twitter_username:   SBootstrap
+github_username:    StartBootstrap
+facebook_username:  StartBootstrap
+instagram_username:  
+linkedin_username:
 
-defaults:
-  -
-    scope:
-      path: "" # empty string for all files
-    values:
-      title: Hyemi's Blog
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
-description: Hello!
-author:
-  name: Kim Hyemi
-  email: HyemiKim0720@gmail.com
-  github: HyemiKim0720
-  twitter: 
-  pinterest: 
-  linkedin: 
-  bio: 
-  email_md5: 
-
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
-
-# set it as url of an image
-# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
-
-BASE_PATH:
-
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
 plugins:
+  - jekyll-feed
   - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
